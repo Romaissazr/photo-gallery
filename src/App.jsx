@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-const App = () => {
+function App(){
   const [photos, setPhotos] = useState([]);
   const [query, setQuery] = useState(""); 
   const [loading, setLoading] = useState(false); 
